@@ -1,0 +1,30 @@
+{
+  "name": "youtube-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/app.js",
+  "scripts": {
+    "start": "node api/app.js",
+    "dev": "nodemon api/app.js"
+  },
+  "author": "",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.13.8",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
